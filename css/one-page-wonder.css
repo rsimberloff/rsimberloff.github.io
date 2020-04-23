@@ -38,8 +38,8 @@ h6
 
 
 .navbar-custom {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -52,13 +52,15 @@ h6
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
   
 }
 
  header {
+  padding-top: calc(16rem + 55px);
+  padding-bottom: 16rem;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -69,7 +71,6 @@ header.masthead {
   position: relative;
   overflow: hidden;
   background-repeat: no-repeat;
-  background-position: center;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -77,14 +78,15 @@ header.masthead {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(1rem + 75px);
-    padding-bottom: 1rem;
+    
+    padding-top: 35px;
+    padding-bottom: 0rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
  
 }
