@@ -70,7 +70,6 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background:#256B44;
-  background-image: url(img/gothic.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -112,4 +111,3 @@ header .header-site{
 html {
   scroll-behavior: smooth;
 }
-
