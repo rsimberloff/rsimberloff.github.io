@@ -17,12 +17,18 @@ h4
   font-weight: 800 !important;
 }
 
-h5,
-h6
+h5
   {
   font-family: 'Catamaran';
   font-weight: 500 !important;
   font-size: 2rem;
+ }
+ 
+h6
+  {
+  font-family: 'Catamaran';
+  font-weight: 350;
+  font-size: 1.5rem;
  }
 
 .btn-xl {
