@@ -31,13 +31,6 @@ h6
   font-size: 1.5rem;
  }
 
-.btn-xl {
-  text-transform: uppercase;
-  padding: 1.5rem 3rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-}
 
 .bg-black {
   background-color: #000 !important;
@@ -62,43 +55,30 @@ h6
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  
+}
+
+ header {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header.masthead {
+  background:url('img/gothicmt.jpeg') #292f33;
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background:#256B44;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: scroll;
   background-size: cover;
 }
 
-header.masthead .masthead-content {
-  z-index: 1;
-  position: relative;
-}
-
-header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
-}
-
-header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
-}
-
-header .header-site{
-   background: url('img/labsitedabney.jpeg');
-   position: static;
-  background-size: cover;
-}
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    padding-top: calc(1rem + 75px);
+    padding-bottom: 1rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -106,6 +86,7 @@ header .header-site{
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
   }
+ 
 }
 
 html {
