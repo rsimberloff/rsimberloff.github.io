@@ -43,9 +43,6 @@ h6
   background-color: #000 !important;
 }
 
-.rounded-pill {
-  border-radius: 5rem;
-}
 
 .navbar-custom {
   padding-top: 1rem;
@@ -73,7 +70,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background:#256B44;
-  background-image: url(img/labsitedabney.jpeg);
+  background-image: url(img/gothic.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
